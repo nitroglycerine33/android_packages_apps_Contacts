@@ -1886,6 +1886,7 @@ connection to the voicemail server is lost. [CHAR LIMIT=64] -->
          overflow button available in ActionBar.
          [CHAR LIMIT=NONE] -->
     <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+
     <!-- Content description for the expand or collapse name fields button.
          Clicking this button causes the name editor to toggle between showing
          a single field where the entire name is edited at once, or multiple
