@@ -571,6 +571,10 @@ public class CallDetailActivity extends Activity implements ProximitySensorAware
                 });
     }
 
+    public void onMenuAddToBlacklist(MenuItem menuItem) {
+        mContactInfoHelper.addNumberToBlacklist(mNumber);
+    }
+
     private void configureActionBar() {
         ActionBar actionBar = getActionBar();
         if (actionBar != null) {
