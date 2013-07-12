@@ -177,7 +177,7 @@
     <string name="noContactsNoSimHelpTextWithSync" product="default" msgid="7443705129830284440">"表示できる連絡先がありません（アカウントを追加した直後の場合は、連絡先が同期されるまでに数分かかることがあります）。"\n\n"連絡先を追加するには、"<font fgcolor="#ffffffff"><b>"MENU"</b></font>"キーをタップして次の操作を行います:"\n\n<li>"携帯端末と同期可能な連絡先を使ってアカウントを追加またはセットアップする場合は["<font fgcolor="#ffffffff"><b>"アカウント"</b></font>"]をタップします"\n</li>\n<li>"連絡先の表示方法を変更するには["<font fgcolor="#ffffffff"><b>"表示オプション"</b></font>"]をタップします"\n</li>\n<li>"新しい連絡先を最初から作成する場合は["<font fgcolor="#ffffffff"><b>"連絡先を新規登録"</b></font>"]をタップします"\n</li>\n<li>"SDカードから連絡先をインポートする場合は["<font fgcolor="#ffffffff"><b>"インポート/エクスポート"</b></font>"]をタップします"\n</li></string>
     <string name="noFavoritesHelpText" msgid="3744655776704833277">"お気に入りはありません。"\n\n"お気に入りのリストに連絡先を追加するには: "\n\n<li>"["<b>"連絡先"</b>"]タブをタップします"\n</li>" "\n<li>"お気に入りに追加する連絡先をタップします"\n</li>" "\n<li>"連絡先名の横にあるスターをタップします"\n</li></string>
     <string name="dialer_useDtmfDialpad" msgid="1707548397435075040">"プッシュホン式キーパッドを使う"</string>
-    <string name="dialer_returnToInCallScreen" msgid="3719386377550913067">"保留中の通話に戻る"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3719386377550913067">"通話に戻る"</string>
     <string name="dialer_addAnotherCall" msgid="4205688819890074468">"別の通話を追加"</string>
     <string name="callDetailTitle" msgid="5340227785196217938">"通話詳細"</string>
     <string name="toast_call_detail_error" msgid="7200975244804730096">"通話要求の詳細が読み込めませんでした。"</string>
@@ -570,20 +570,4 @@
     <string name="menu_export_database" msgid="2659719297530170820">"データベースファイルをエクスポート"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"その他のオプション"</string>
     <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"名前フィールドの展開/折りたたみ"</string>
-
-    <!-- CM extra entries -->
-    <string name="t9_loading">読込中\u2026</string>
-    <string name="t9_sort_title">T9ソートモード</string>
-    <string name="t9_sort_summary">T9結果のフィルタを選択</string>
-    <string name="t9_sort_name">名前が一致した順</string>
-    <string name="t9_sort_number">番号が一致した順</string>
-    <string name="t9_state_title">T9ダイヤラーを有効にする</string>
-    <string name="t9_state_summary">ダイヤラーでT9検索を有効にする</string>
-    <string name="t9_dial_click_title">選択した連絡先にダイヤルする</string>
-    <string name="t9_dial_click_summary">T9で選択した連絡先にダイヤルする</string>
-    <string name="t9_add_to_contacts">連絡先の追加</string>
-    <string name="dialer_ui_title">ダイヤラ設定</string>
-    <string name="dialer_ui_orientation_title">画面の回転を有効</string>
-    <string name="dialer_ui_orientation_summary">センサーによりダイヤラ画面を回転させる</string>
-
 </resources>

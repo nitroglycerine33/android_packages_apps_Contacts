@@ -309,7 +309,7 @@
     <string name="display_ungrouped" msgid="6885954210243119591">"Alle andre kontaktpersoner"</string>
     <string name="display_all_contacts" msgid="2031647544742889505">"Alle kontaktpersoner"</string>
     <string name="display_warn_remove_ungrouped" msgid="8872290721676651414">"Hvis du fjerner \"<xliff:g id="GROUP">%s</xliff:g>\" fra synkroniseringen, fjernes alle ugrupperede kontaktpersoner fra synkroniseringen."</string>
-    <string name="account_phone" product="tablet" msgid="7946049152658522054">"Kun tabletcomputer, ikke synkroniseret"</string>
+    <string name="account_phone" product="tablet" msgid="7946049152658522054">"Kun tablet, ikke synkroniseret"</string>
     <string name="account_phone" product="default" msgid="3682950835276226870">"Kun telefon, ikke synkroniseret"</string>
     <string name="call_custom" msgid="7756571794763171802">"Ring til <xliff:g id="CUSTOM">%s</xliff:g>"</string>
     <string name="call_home" msgid="1990519474420545392">"Ring hjem"</string>
@@ -570,22 +570,4 @@
     <string name="menu_export_database" msgid="2659719297530170820">"Eksportér databasefiler"</string>
     <string name="action_menu_overflow_description" msgid="2303272250613084574">"Flere valgmuligheder"</string>
     <string name="expand_collapse_name_fields_description" msgid="8682630859539604311">"Udvid eller skjul navnefelter"</string>
-
-    <!-- CYANOGENMOD ADDITIONS -->
-    <string name="t9_loading">Indlæser\u2026</string>
-    <string name="t9_sort_title">T9-sorteringstilstand</string>
-    <string name="t9_sort_summary">Vælg, hvordan T9-resultater sorteres</string>
-    <string name="t9_sort_name">Navn matcher først</string>
-    <string name="t9_sort_number">Nummer matcher først</string>
-    <string name="t9_state_title">Slå T9-opkaldsprogram til</string>
-    <string name="t9_state_summary">Slå T9-søgning til i opkaldsprogram</string>
-    <string name="t9_dial_click_title">Ring op til den valgte kontakt</string>
-    <string name="t9_dial_click_summary">Ring op til den valgte kontakt for T9</string>
-    <string name="t9_add_to_contacts">Tilføj til kontakter</string>
-
-    <string name="dialer_ui_title">Indstillinger for opkaldsprogram</string>
-    <string name="dialer_ui_orientation_title">Slå sensor-orientering til</string>
-    <string name="dialer_ui_orientation_summary">Rotér opkaldsprogram baseret på sensor</string>
-    <!-- CYANOGENMOD ADDITIONS END -->
-
 </resources>

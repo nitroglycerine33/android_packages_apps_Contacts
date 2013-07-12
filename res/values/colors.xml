@@ -24,7 +24,7 @@
     <color name="quickcontact_tab_indicator">@android:color/holo_blue_light</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">#ff000000</color>
+    <color name="background_primary">#000000</color>
 
     <color name="background_social_updates">#ff000000</color>
 
@@ -32,7 +32,7 @@
     <color name="section_header_text_color">#ffbfbfbf</color>
 
     <!-- Color of the text in the updates tab in the tab carousel on the contact detail page -->
-    <color name="detail_update_tab_text_color">#ffffff</color>
+    <color name="detail_update_tab_text_color">#FFFFFF</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="call_log_missed_call_highlight_color">#FF0000</color>
@@ -53,10 +53,10 @@
     <color name="people_app_theme_color">@android:color/holo_blue_light</color>
 
     <!-- Secondary text color in the Phone app -->
-    <color name="dialtacts_secondary_text_color">#ffcfcfcf</color>
+    <color name="dialtacts_secondary_text_color">#CFCFCF</color>
 
     <!-- Colors in the contact browser list -->
-    <color name="contact_count_text_color">#bfbfbf</color>
+    <color name="contact_count_text_color">#BFBFBF</color>
 
     <!-- Color of the text of the tab carousel in the contact details  -->
     <color name="detail_tab_carousel_tab_label_color">#EEEEEE</color>
@@ -103,11 +103,10 @@
     <color name="black_text">#ff000000</color>
     <color name="contact_tile_name_text">#ffffffff</color>
     <color name="dialpad_switch_bg">#66000000</color>
-    <color name="account_container">#ff222222</color>
-    <color name="photo_backdrop">#ff000000</color>
+    <color name="account_container">#222222</color>
+    <color name="photo_backdrop">#000000</color>
     <color name="photo_container">#4c090909</color>
     <color name="social_widget_bg">#00000000</color>
     <color name="contact_detail_fragment">#ff000000</color>
-    <color name="call_log_tab_divider">#55ffffff</color>
-    <color name="call_detail_blank_background">#ff000000</color>
+
 </resources>

@@ -329,6 +329,7 @@ public class DialpadFragment extends Fragment
         }
         mT9Flipper = (ViewSwitcher) fragmentView.findViewById(R.id.t9flipper);
         mT9Top = (LinearLayout) fragmentView.findViewById(R.id.t9topbar);
+
         PhoneNumberFormatter.setPhoneNumberFormattingTextWatcher(getActivity(), mDigits);
         // Check for the presence of the keypad
         View oneButton = fragmentView.findViewById(R.id.one);
@@ -532,11 +533,11 @@ public class DialpadFragment extends Fragment
     @Override
     public void onStart() {
         super.onStart();
-        configureScreenFromIntent(getActivity().getIntent());
-        setStartedFromNewIntent(false);
         if (isT9On()) {
             mT9Search.refresh(mT9Callback);
         }
+        configureScreenFromIntent(getActivity().getIntent());
+        setStartedFromNewIntent(false);
     }
 
     @Override
@@ -1326,6 +1327,9 @@ public class DialpadFragment extends Fragment
                 // contains a *formatted* version of mLastNumberDialed (due to
                 // mTextWatcher) and its length may have changed.
                 mDigits.setSelection(mDigits.getText().length());
+
+                // Retrigger T9 search to show the matching contact if present
+                searchContacts();
             } else {
                 // There's no "last number dialed" or the
                 // background query is still running. There's
